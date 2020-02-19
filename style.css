@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+}
+
+.container {
+  max-width: 768px;
+  height: auto;
+  margin: auto;
+  padding: 5px 15px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px 5px 0 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.quote-logo {
+  width: 50px;
+}
+
+.quote-nav-icons {
+  width: 40px;
+  transition: all 0.3s ease;
+}
+.quote-nav-icons:hover {
+  transform: scale(1.1);
+}
+
+.quote-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.quote-list-items a {
+  display: block;
+  padding: 0 10px;
+}
